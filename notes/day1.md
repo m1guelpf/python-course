@@ -36,7 +36,7 @@ varname = True
 | int        | Integer   | `1`,`2`,`3`...   |
 | float      | Float     | `1.23`, `1.24`...|
 | str        | String    | `"Hello"`        |
-| []         | List      | [1,2,3,4,5]      |
+| []         | List      | `[1,2,3,4,5]`    |
 
 ## Operators
 
@@ -113,5 +113,17 @@ tuple2[2:4] # you can also use splicing
 ``` python
 age = 13
 name = "David"
-sentence = "%s is %d years old" %(name,age) # assigns each placeholder a variable. (Miguel is 15 years old)
+sentence = "%s is %d years old" %(name,age) # assigns each placeholder a variable. (David is 13 years old)
+sentence = "{name} is {age} years old".format(name = name, age = age) # same than the above. (David is 13 years old)
+```
+
+## Conditionals
+
+``` python
+if expression: # if expression evaluates to True...
+  statement # do something
+elif expression: # if the above evaluates to False, and this evaluates to True...
+  statement # do something
+else: # if neither of the above evaluate to True
+  statement # do something
 ```
