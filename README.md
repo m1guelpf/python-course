@@ -1,2 +1,2 @@
-# python-course
-Notes from my Python course @ FireTech
+# Python Course Notes
+Notes from the Python course @ FireTech
