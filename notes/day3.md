@@ -13,7 +13,7 @@ function_name(parameters) # then, we can call the function
 ### Variable scope
 
 ``` python
-variable1 = "I am a global variable" # variables defined in the "root"can be accessed anywhere
+variable1 = "I am a global variable" # variables defined in the "root" can be accessed anywhere
 
 def function(input): # the input of the function is only available inside the function
   variable2 = "I am not a global variable" # variables defined inside a function can only be accessed inside the function
